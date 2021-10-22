@@ -1,5 +1,3 @@
-[use DilnaSObrabecimiStroji]
-
 CREATE TABLE Adresy(
     id_adres INTEGER IDENTITY (1,1) PRIMARY KEY NOT NULL
 
@@ -49,9 +47,16 @@ CREATE TABLE Objednavky(
     id_nakup INTEGER FOREIGN KEY REFERENCES Nakupujici(id_nakup)
 );
 
+CREATE TABLE Dilny(
+    id_dil INTEGER IDENTITY (1,1) PRIMARY KEY NOT NULL,
+
+    id_adres INTEGER FOREIGN KEY REFERENCES Adresy(id_adres)
+);
+
 CREATE TABLE Vyrobky(
     id_vyrobk INTEGER IDENTITY (1,1) PRIMARY KEY NOT NULL,
 
+    id_dil INTEGER FOREIGN KEY REFERENCES Dilny(id_dil),
     id_proc INTEGER FOREIGN KEY REFERENCES Procesy(id_proc),
     id_obj INTEGER FOREIGN KEY REFERENCES Objednavky(id_obj)
 );
@@ -72,9 +77,13 @@ CREATE TABLE Stroje(
 CREATE TABLE Zamestnanci(
     id_zam INTEGER IDENTITY (1,1) PRIMARY KEY NOT NULL,
 
+    id_dil INTEGER FOREIGN KEY REFERENCES Dilny(id_dil),
     id_typ_stroj INTEGER FOREIGN KEY REFERENCES Typy_stroju(id_typ_stroj),
     id_adres INTEGER FOREIGN KEY REFERENCES Adresy(id_adres) NOT NULL
 );
+
+
+
 
 
 
