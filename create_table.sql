@@ -1,4 +1,4 @@
-use DsProject;
+
 CREATE TABLE Adresy(
     id_adres INTEGER IDENTITY (1,1) PRIMARY KEY NOT NULL,
 	mesto nvarchar(25) NOT NULL,
