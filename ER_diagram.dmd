@@ -1,0 +1,25 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ER_diagram" id="E304D5A5-B69F-9A35-A18C-8DCE8A53939F" version="3.5">
+<createdBy>prevale</createdBy>
+<createdTime>2021-11-07 14:41:00 UTC</createdTime>
+<ownerDesignName>ER_diagram</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E304D5A5-B69F-9A35-A18C-8DCE8A53939F</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="CB0B762A-65F7-A843-B3DA-AEC4F51EF70C">
+<designStoragePath>/hababa</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3211A3EB-3CBA-BB00-048D-2AD4AD96921E">
+<designStoragePath>/hababa</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7D18BFB6-702B-D86F-40F8-C866778367FF">
+<designStoragePath>/hababa</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="374A7C2F-8073-DE5B-3B17-26045861078C">
+<designStoragePath>/hababa</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7D29ADC5-F56A-CA0C-BA90-4B99300BC32B">
+<designStoragePath>/hababa</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
