@@ -58,7 +58,7 @@ CREATE TABLE Nakupujici(
 	jmeno NVARCHAR(20) NOT NULL,
 	prijmeni NVARCHAR(20) NOT NULL,
 	email NVARCHAR(30) NOT NULL,
-	tel_cis DECIMAL(9) NOT NULL,
+	tel_cis DECIMAL(9,0) NOT NULL,
     id_firm INTEGER FOREIGN KEY REFERENCES Firmy(id_firm) NOT NULL,
     id_adres INTEGER FOREIGN KEY REFERENCES Adresy(id_adres) NOT NULL
 );
